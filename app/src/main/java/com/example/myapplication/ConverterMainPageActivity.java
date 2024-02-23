@@ -7,23 +7,24 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class ConverterMainPageActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button converterMainPage = findViewById(R.id.converterMainPage);
+        Button khmerToUSDButton = findViewById(R.id.khmerToUSDButton);
 //        Button khmerToEuroButton = findViewById(R.id.khmerToEuroButton);
 //        Button euroToKhmerButton = findViewById(R.id.euroToKhmerButton);
 
-        converterMainPage.setOnClickListener(new View.OnClickListener() {
+        khmerToUSDButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openConverterActivity("KHR", "USD");
             }
         });
+
     }
 
     private void openConverterActivity(String fromCurrency, String toCurrency) {

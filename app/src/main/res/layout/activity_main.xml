@@ -7,21 +7,25 @@
 
     <!-- Buttons for different conversions -->
     <Button
-        android:id="@+id/khmerToUSDButton"
+        android:id="@+id/converterMainPage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="KHR to USD"
+        android:text="Excercise 1 Convert Currency"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
 
     <Button
-        android:id="@+id/usdToKhmerButton"
+        android:id="@+id/excercise2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="USD to KHR"
+        android:text="Excercise 2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
 
-    <!-- Similar buttons for other conversions -->
+
 
 </RelativeLayout>
